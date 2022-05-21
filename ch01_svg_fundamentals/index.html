@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Fundamentals</title>
+    <style>
+      *,
+      ::after,
+      ::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      svg {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <svg>
+      <circle
+        cx="50"
+        cy="50"
+        r="50"
+        fill="none"
+        stroke="blue"
+        stroke-width="2"
+      ></circle>
+      <circle
+        cx="150"
+        cy="50"
+        r="50"
+        fill="red"
+        stroke="blue"
+        stroke-width="2"
+      ></circle>
+      <rect
+        x="200"
+        y="0"
+        width="100"
+        height="100"
+        fill="green"
+        stroke="black"
+        stroke-width="2"
+      ></rect>
+      <path
+        fill="none"
+        d="M 200 200 L300 300 L300 400"
+        stroke="pink"
+        stroke-width="10"
+      ></path>
+      <path
+        fill="green"
+        d="M 400 200 L500 300 L500 400"
+        stroke="cyan"
+        stroke-width="10"
+      ></path>
+      <path
+        fill="red"
+        d="M 50 150 L100 300 l-50 100"
+        stroke="blue"
+        stroke-width="10"
+      ></path>
+    </svg>
+  </body>
+</html>
